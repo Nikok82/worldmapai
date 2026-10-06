@@ -1,0 +1,507 @@
+{
+  "schema": 1,
+  "updated": "2026-10-05",
+  "source": "Prima versione compilata a mano con ricerche sul web (05/10/2026)",
+  "tools": [
+    {
+      "id": "duckai",
+      "name": "Duck.ai",
+      "url": "https://duck.ai",
+      "category": "Chat e assistenti",
+      "free": true,
+      "desc": "Chat AI di DuckDuckGo con più modelli (Claude Haiku, GPT mini, Mistral, Gemma). Non serve nessun account e le conversazioni restano anonime.",
+      "price": "Gratis, senza account",
+      "verified": "2026-10-05"
+    },
+    {
+      "id": "chatgpt-guest",
+      "name": "ChatGPT (modalità ospite)",
+      "url": "https://chatgpt.com",
+      "category": "Chat e assistenti",
+      "free": true,
+      "desc": "ChatGPT si può usare anche senza accedere, con un modello più leggero e poche domande per sessione. Niente immagini e voce senza account.",
+      "price": "Gratis, senza account (limitato)",
+      "verified": "2026-10-05"
+    },
+    {
+      "id": "copilot-guest",
+      "name": "Microsoft Copilot",
+      "url": "https://copilot.microsoft.com",
+      "category": "Chat e assistenti",
+      "free": true,
+      "desc": "Assistente con ricerca web integrata. Da browser desktop funziona senza account per un numero limitato di messaggi.",
+      "price": "Gratis, senza account (limitato)",
+      "verified": "2026-10-05"
+    },
+    {
+      "id": "perplexity-free",
+      "name": "Perplexity",
+      "url": "https://www.perplexity.ai",
+      "category": "Ricerca",
+      "free": true,
+      "desc": "Motore di ricerca con risposte riassunte e fonti citate. Le ricerche standard funzionano senza account.",
+      "price": "Gratis, senza account (ricerche Pro limitate)",
+      "verified": "2026-10-05"
+    },
+    {
+      "id": "hf-spaces",
+      "name": "Hugging Face Spaces",
+      "url": "https://huggingface.co/spaces",
+      "category": "Laboratorio",
+      "free": true,
+      "desc": "Migliaia di demo AI open source da provare nel browser: immagini, trascrizione audio, traduzione, rimozione sfondo. Velocità variabile.",
+      "price": "Gratis, senza account",
+      "verified": "2026-10-05"
+    },
+    {
+      "id": "deepl-free",
+      "name": "DeepL Traduttore",
+      "url": "https://www.deepl.com/translator",
+      "category": "Scrittura e traduzione",
+      "free": true,
+      "desc": "Traduzioni di ottima qualità, anche dall’italiano. Senza account con limite di caratteri per traduzione.",
+      "price": "Gratis, senza account (limite caratteri)",
+      "verified": "2026-10-05"
+    },
+    {
+      "id": "perchance",
+      "name": "Perchance AI Image",
+      "url": "https://perchance.org/ai-text-to-image-generator",
+      "category": "Immagini",
+      "free": true,
+      "desc": "Generatore di immagini da testo senza login e senza limiti giornalieri. Qualità buona per bozze e idee.",
+      "price": "Gratis, senza account, illimitato",
+      "verified": "2026-10-05"
+    },
+    {
+      "id": "quillbot-free",
+      "name": "QuillBot Parafrasi",
+      "url": "https://quillbot.com/paraphrasing-tool",
+      "category": "Scrittura e traduzione",
+      "free": true,
+      "desc": "Riscrive e parafrasa testi anche in italiano. Senza account fino a 125 parole per volta.",
+      "price": "Gratis, senza account (125 parole)",
+      "verified": "2026-10-05"
+    },
+    {
+      "id": "languagetool",
+      "name": "LanguageTool",
+      "url": "https://languagetool.org/it",
+      "category": "Scrittura e traduzione",
+      "free": true,
+      "desc": "Correttore di grammatica, ortografia e stile per l’italiano e altre lingue, direttamente nel browser.",
+      "price": "Gratis, senza account (versione base)",
+      "verified": "2026-10-05"
+    },
+    {
+      "id": "upscayl",
+      "name": "Upscayl",
+      "url": "https://upscayl.org",
+      "category": "Immagini",
+      "free": true,
+      "desc": "App open source da installare: ingrandisce le immagini con l’AI senza perdere qualità. Lavora offline sul tuo PC.",
+      "price": "Gratis, open source, senza account",
+      "verified": "2026-10-05"
+    },
+    {
+      "id": "jan",
+      "name": "Jan",
+      "url": "https://jan.ai",
+      "category": "Chat e assistenti",
+      "free": true,
+      "desc": "App open source per usare modelli AI in locale, offline e senza inviare dati online. Serve un PC con almeno 8 GB di RAM.",
+      "price": "Gratis, open source, senza account",
+      "verified": "2026-10-05"
+    },
+    {
+      "id": "chatgpt",
+      "name": "ChatGPT",
+      "url": "https://chatgpt.com/pricing",
+      "category": "Chat e assistenti",
+      "free": false,
+      "desc": "L’assistente di OpenAI: scrittura, analisi di file, immagini, ricerca approfondita, agenti.",
+      "price": "Go 8 $/mese · Plus 20 $/mese · Pro da 100 $/mese",
+      "verified": "2026-10-05"
+    },
+    {
+      "id": "claude",
+      "name": "Claude",
+      "url": "https://claude.com/pricing",
+      "category": "Chat e assistenti",
+      "free": false,
+      "desc": "L’assistente di Anthropic, forte nella scrittura lunga, nell’analisi e nel codice (include Claude Code).",
+      "price": "Pro 20 $/mese (17 $ annuale) · Max da 100 $/mese",
+      "verified": "2026-10-05"
+    },
+    {
+      "id": "gemini",
+      "name": "Google Gemini (Google AI)",
+      "url": "https://gemini.google/subscriptions/",
+      "category": "Chat e assistenti",
+      "free": false,
+      "desc": "Gemini con generazione di immagini e video, Deep Research e spazio Google One incluso.",
+      "price": "AI Plus 4,99 $/mese · AI Pro 19,99 $/mese · Ultra da 99,99 $/mese",
+      "verified": "2026-10-05"
+    },
+    {
+      "id": "perplexity-pro",
+      "name": "Perplexity Pro",
+      "url": "https://www.perplexity.ai/pro",
+      "category": "Ricerca",
+      "free": false,
+      "desc": "Ricerca con i modelli migliori, ricerche approfondite illimitate e caricamento di file.",
+      "price": "Pro 20 $/mese (200 $/anno) · Max 200 $/mese",
+      "verified": "2026-10-05"
+    },
+    {
+      "id": "midjourney",
+      "name": "Midjourney",
+      "url": "https://www.midjourney.com",
+      "category": "Immagini",
+      "free": false,
+      "desc": "Uno dei migliori generatori di immagini artistiche e fotorealistiche, anche video brevi.",
+      "price": "Basic 10 $/mese · Standard 30 $ · Pro 60 $ · Mega 120 $ (−20% annuale)",
+      "verified": "2026-10-05"
+    },
+    {
+      "id": "ideogram",
+      "name": "Ideogram",
+      "url": "https://ideogram.ai",
+      "category": "Immagini",
+      "free": false,
+      "desc": "Generatore di immagini bravissimo con le scritte dentro l’immagine: loghi, poster, grafiche social.",
+      "price": "Plus 15 $/mese · Pro 42 $/mese (annuale) · piano gratuito limitato",
+      "verified": "2026-10-05"
+    },
+    {
+      "id": "leonardo",
+      "name": "Leonardo.ai",
+      "url": "https://leonardo.ai",
+      "category": "Immagini",
+      "free": false,
+      "desc": "Immagini e video con molti modelli e stili, strumenti di modifica e canvas.",
+      "price": "Essential 12 $/mese · Premium 30 $ · Ultimate 60 $",
+      "verified": "2026-10-05"
+    },
+    {
+      "id": "firefly",
+      "name": "Adobe Firefly",
+      "url": "https://www.adobe.com/it/products/firefly/plans.html",
+      "category": "Immagini",
+      "free": false,
+      "desc": "AI generativa di Adobe, pensata per l’uso commerciale sicuro, integrata con Photoshop ed Express.",
+      "price": "Standard 11,26 €/mese · Pro 22,55 €/mese (IVA incl.)",
+      "verified": "2026-10-05"
+    },
+    {
+      "id": "canva",
+      "name": "Canva Pro (Canva AI)",
+      "url": "https://www.canva.com/pricing/",
+      "category": "Grafica e design",
+      "free": false,
+      "desc": "Design per social e stampa con Canva AI: scrittura, ridimensionamento magico, traduzione, generazione immagini.",
+      "price": "Pro 144 $/anno · Business 250 $/anno a persona",
+      "verified": "2026-10-05"
+    },
+    {
+      "id": "runway",
+      "name": "Runway",
+      "url": "https://runway.com/pricing",
+      "category": "Video",
+      "free": false,
+      "desc": "Generazione e modifica video con l’AI: da testo o immagine a video, rimozione oggetti, voci.",
+      "price": "Standard 15 $/mese (12 $ annuale) · Pro 35 $ · Max 95 $",
+      "verified": "2026-10-05"
+    },
+    {
+      "id": "heygen",
+      "name": "HeyGen",
+      "url": "https://www.heygen.com/pricing",
+      "category": "Video",
+      "free": false,
+      "desc": "Video con avatar parlanti e traduzione dei video con labiale sincronizzato.",
+      "price": "Creator 29 $/mese · Pro 49 $ · Business 149 $",
+      "verified": "2026-10-05"
+    },
+    {
+      "id": "synthesia",
+      "name": "Synthesia",
+      "url": "https://www.synthesia.io/pricing",
+      "category": "Video",
+      "free": false,
+      "desc": "Video aziendali e formativi con avatar AI in oltre 140 lingue.",
+      "price": "Starter 29 $/mese · Pro 89 $/mese",
+      "verified": "2026-10-05"
+    },
+    {
+      "id": "descript",
+      "name": "Descript",
+      "url": "https://www.descript.com/pricing",
+      "category": "Video",
+      "free": false,
+      "desc": "Montaggio di video e podcast modificando la trascrizione come un documento; pulizia audio automatica.",
+      "price": "Hobbyist da 16 $/mese · Creator da 24 $ · Business da 50 $ (annuale)",
+      "verified": "2026-10-05"
+    },
+    {
+      "id": "elevenlabs",
+      "name": "ElevenLabs",
+      "url": "https://elevenlabs.io/pricing",
+      "category": "Audio e voce",
+      "free": false,
+      "desc": "Voci sintetiche realistiche anche in italiano, clonazione della voce, doppiaggio.",
+      "price": "Starter 6 $/mese · Creator 22 $/mese · Pro 99 $/mese",
+      "verified": "2026-10-05"
+    },
+    {
+      "id": "suno",
+      "name": "Suno",
+      "url": "https://suno.com/pricing",
+      "category": "Audio e voce",
+      "free": false,
+      "desc": "Crea canzoni complete (musica e voce) da una descrizione; i piani a pagamento includono l’uso commerciale.",
+      "price": "Pro da 8 $/mese · Premier da 24 $/mese",
+      "verified": "2026-10-05"
+    },
+    {
+      "id": "grammarly",
+      "name": "Grammarly",
+      "url": "https://www.grammarly.com/plans",
+      "category": "Scrittura e traduzione",
+      "free": false,
+      "desc": "Correzione e riscrittura dei testi in inglese con l’AI, anche dentro email e documenti.",
+      "price": "Pro 12 $/mese",
+      "verified": "2026-10-05"
+    },
+    {
+      "id": "deepl-pro",
+      "name": "DeepL Pro",
+      "url": "https://www.deepl.com/it/pro",
+      "category": "Scrittura e traduzione",
+      "free": false,
+      "desc": "Traduzione senza limiti di testi e documenti (Word, PDF, PowerPoint) mantenendo l’impaginazione.",
+      "price": "Individual 7,49 €/mese · Team 24,99 €/mese a utente (annuale)",
+      "verified": "2026-10-05"
+    },
+    {
+      "id": "cursor",
+      "name": "Cursor",
+      "url": "https://cursor.com/pricing",
+      "category": "Programmazione",
+      "free": false,
+      "desc": "Editor di codice basato su VS Code con agenti AI che scrivono e modificano interi progetti.",
+      "price": "Pro 20 $/mese · Teams 40 $/mese a utente",
+      "verified": "2026-10-05"
+    },
+    {
+      "id": "github-copilot",
+      "name": "GitHub Copilot",
+      "url": "https://github.com/features/copilot/plans",
+      "category": "Programmazione",
+      "free": false,
+      "desc": "Assistente di programmazione dentro VS Code, JetBrains e GitHub: completamenti, chat e agenti.",
+      "price": "Pro 10 $/mese · Pro+ 39 $/mese · piano Free limitato",
+      "verified": "2026-10-05"
+    },
+    {
+      "id": "bolt",
+      "name": "Bolt",
+      "url": "https://bolt.new/pricing",
+      "category": "Siti e app",
+      "free": false,
+      "desc": "Crea siti e web app completi descrivendoli a parole, con anteprima e pubblicazione.",
+      "price": "Pro 25 $/mese · Teams 30 $/mese a utente",
+      "verified": "2026-10-05"
+    },
+    {
+      "id": "v0",
+      "name": "v0 di Vercel",
+      "url": "https://v0.app/pricing",
+      "category": "Siti e app",
+      "free": false,
+      "desc": "Genera interfacce e app React/Next.js da una descrizione, pronte da pubblicare su Vercel.",
+      "price": "Plus 30 $/mese a utente · Business 100 $/mese",
+      "verified": "2026-10-05"
+    },
+    {
+      "id": "gamma",
+      "name": "Gamma",
+      "url": "https://gamma.app/pricing",
+      "category": "Presentazioni e documenti",
+      "free": false,
+      "desc": "Crea presentazioni, documenti e mini-siti impaginati partendo da un testo o da un’idea.",
+      "price": "Piani Plus, Pro e Ultra: prezzo da verificare sul sito",
+      "verified": ""
+    },
+    {
+      "id": "lovable",
+      "name": "Lovable",
+      "url": "https://lovable.dev/pricing",
+      "category": "Siti e app",
+      "free": false,
+      "desc": "Crea web app complete con database e login descrivendole in chat.",
+      "price": "Prezzo da verificare sul sito",
+      "verified": ""
+    },
+    {
+      "id": "notion-ai",
+      "name": "Notion AI",
+      "url": "https://www.notion.com/pricing",
+      "category": "Presentazioni e documenti",
+      "free": false,
+      "desc": "AI dentro Notion: scrive, riassume, cerca tra pagine e app collegate, trascrive le riunioni.",
+      "price": "Incluso nei piani Business: prezzo da verificare sul sito",
+      "verified": ""
+    },
+    {
+      "id": "otter",
+      "name": "Otter.ai",
+      "url": "https://otter.ai/pricing",
+      "category": "Riunioni e produttività",
+      "free": false,
+      "desc": "Trascrive e riassume le riunioni (Zoom, Meet, Teams) con elenco delle azioni da fare.",
+      "price": "Prezzo da verificare sul sito",
+      "verified": ""
+    },
+    {
+      "id": "fireflies",
+      "name": "Fireflies.ai",
+      "url": "https://fireflies.ai/pricing",
+      "category": "Riunioni e produttività",
+      "free": false,
+      "desc": "Assistente che partecipa alle riunioni, trascrive, riassume e rende ricercabili le conversazioni.",
+      "price": "Prezzo da verificare sul sito",
+      "verified": ""
+    },
+    {
+      "id": "krea",
+      "name": "Krea",
+      "url": "https://www.krea.ai",
+      "category": "Immagini",
+      "free": false,
+      "desc": "Generazione di immagini e video in tempo reale, upscaling e accesso a più modelli in un unico posto.",
+      "price": "Prezzo da verificare sul sito",
+      "verified": ""
+    },
+    {
+      "id": "kling",
+      "name": "Kling AI",
+      "url": "https://klingai.com",
+      "category": "Video",
+      "free": false,
+      "desc": "Generatore video da testo e immagini con movimenti realistici, molto usato per i contenuti social.",
+      "price": "Prezzo da verificare sul sito",
+      "verified": ""
+    },
+    {
+      "id": "luma",
+      "name": "Luma Dream Machine",
+      "url": "https://lumalabs.ai/dream-machine",
+      "category": "Video",
+      "free": false,
+      "desc": "Video e immagini generati con l’AI, con controllo della camera e dei fotogrammi chiave.",
+      "price": "Prezzo da verificare sul sito",
+      "verified": ""
+    },
+    {
+      "id": "photoroom",
+      "name": "Photoroom",
+      "url": "https://www.photoroom.com",
+      "category": "Grafica e design",
+      "free": false,
+      "desc": "Foto prodotto per e-commerce: scontorno, sfondi generati, ombre e modifica in serie.",
+      "price": "Prezzo da verificare sul sito",
+      "verified": ""
+    },
+    {
+      "id": "topaz",
+      "name": "Topaz Labs",
+      "url": "https://www.topazlabs.com",
+      "category": "Immagini",
+      "free": false,
+      "desc": "Ingrandimento, riduzione del rumore e nitidezza di foto e video con l’AI, anche in locale.",
+      "price": "Prezzo da verificare sul sito",
+      "verified": ""
+    },
+    {
+      "id": "magnific",
+      "name": "Magnific",
+      "url": "https://magnific.ai",
+      "category": "Immagini",
+      "free": false,
+      "desc": "Upscaler “creativo” che aggiunge dettagli realistici alle immagini ingrandite.",
+      "price": "Prezzo da verificare sul sito",
+      "verified": ""
+    },
+    {
+      "id": "jasper",
+      "name": "Jasper",
+      "url": "https://www.jasper.ai/pricing",
+      "category": "Marketing",
+      "free": false,
+      "desc": "Piattaforma di contenuti marketing con brand voice, campagne e agenti per i team.",
+      "price": "Prezzo da verificare sul sito",
+      "verified": ""
+    },
+    {
+      "id": "replit",
+      "name": "Replit",
+      "url": "https://replit.com/pricing",
+      "category": "Siti e app",
+      "free": false,
+      "desc": "Ambiente di sviluppo online con agente AI che crea, esegue e pubblica applicazioni.",
+      "price": "Prezzo da verificare sul sito",
+      "verified": ""
+    },
+    {
+      "id": "mistral",
+      "name": "Mistral Le Chat",
+      "url": "https://mistral.ai/pricing",
+      "category": "Chat e assistenti",
+      "free": false,
+      "desc": "Assistente dell’azienda francese Mistral, con dati in Europa; versione Pro con più utilizzo.",
+      "price": "Prezzo da verificare sul sito",
+      "verified": ""
+    },
+    {
+      "id": "framer",
+      "name": "Framer",
+      "url": "https://www.framer.com/pricing",
+      "category": "Siti e app",
+      "free": false,
+      "desc": "Builder di siti con AI per generare pagine, tradurre e pubblicare siti veloci senza codice.",
+      "price": "Prezzo da verificare sul sito",
+      "verified": ""
+    },
+    {
+      "id": "udio",
+      "name": "Udio",
+      "url": "https://www.udio.com",
+      "category": "Audio e voce",
+      "free": false,
+      "desc": "Generazione di musica e canzoni con l’AI, alternativa a Suno.",
+      "price": "Prezzo da verificare sul sito",
+      "verified": ""
+    },
+    {
+      "id": "m365-copilot",
+      "name": "Microsoft 365 Copilot",
+      "url": "https://www.microsoft.com/it-it/microsoft-365/copilot",
+      "category": "Presentazioni e documenti",
+      "free": false,
+      "desc": "Copilot dentro Word, Excel, PowerPoint e Outlook: scrive, riassume e analizza i tuoi documenti.",
+      "price": "Prezzo da verificare sul sito",
+      "verified": ""
+    },
+    {
+      "id": "pika",
+      "name": "Pika",
+      "url": "https://pika.art",
+      "category": "Video",
+      "free": false,
+      "desc": "Video brevi generati da testo o immagine, con effetti creativi pensati per i social.",
+      "price": "Prezzo da verificare sul sito",
+      "verified": ""
+    }
+  ]
+}
