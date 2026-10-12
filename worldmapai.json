@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "updated": "2026-10-05",
-  "source": "Prima versione compilata a mano con ricerche sul web (05/10/2026)",
+  "updated": "2026-10-12",
+  "source": "Aggiornamento automatico settimanale (Tavily + Gemini)",
   "tools": [
     {
       "id": "duckai",
@@ -340,8 +340,8 @@
       "category": "Siti e app",
       "free": false,
       "desc": "Crea web app complete con database e login descrivendole in chat.",
-      "price": "Prezzo da verificare sul sito",
-      "verified": ""
+      "price": "Pro 25 $/mese · Business 50 $/mese",
+      "verified": "2026-10-12"
     },
     {
       "id": "notion-ai",
@@ -350,8 +350,8 @@
       "category": "Presentazioni e documenti",
       "free": false,
       "desc": "AI dentro Notion: scrive, riassume, cerca tra pagine e app collegate, trascrive le riunioni.",
-      "price": "Incluso nei piani Business: prezzo da verificare sul sito",
-      "verified": ""
+      "price": "Incluso nel piano Business da 20 $/mese a utente",
+      "verified": "2026-10-12"
     },
     {
       "id": "otter",
@@ -360,8 +360,8 @@
       "category": "Riunioni e produttività",
       "free": false,
       "desc": "Trascrive e riassume le riunioni (Zoom, Meet, Teams) con elenco delle azioni da fare.",
-      "price": "Prezzo da verificare sul sito",
-      "verified": ""
+      "price": "Pro da 8,33 $/mese · Business da 19,99 $/mese a utente (annuale)",
+      "verified": "2026-10-12"
     },
     {
       "id": "fireflies",
@@ -370,8 +370,8 @@
       "category": "Riunioni e produttività",
       "free": false,
       "desc": "Assistente che partecipa alle riunioni, trascrive, riassume e rende ricercabili le conversazioni.",
-      "price": "Prezzo da verificare sul sito",
-      "verified": ""
+      "price": "Pro 18 $/mese · Business 29 $/mese · Enterprise 39 $/mese (annuale)",
+      "verified": "2026-10-12"
     },
     {
       "id": "krea",
@@ -380,8 +380,8 @@
       "category": "Immagini",
       "free": false,
       "desc": "Generazione di immagini e video in tempo reale, upscaling e accesso a più modelli in un unico posto.",
-      "price": "Prezzo da verificare sul sito",
-      "verified": ""
+      "price": "Basic 9 $/mese · Pro 35 $/mese · Max 105 $/mese",
+      "verified": "2026-10-12"
     },
     {
       "id": "kling",
@@ -400,8 +400,8 @@
       "category": "Video",
       "free": false,
       "desc": "Video e immagini generati con l’AI, con controllo della camera e dei fotogrammi chiave.",
-      "price": "Prezzo da verificare sul sito",
-      "verified": ""
+      "price": "Plus 30 $/mese · Pro 90 $/mese · Ultra 300 $/mese",
+      "verified": "2026-10-12"
     },
     {
       "id": "photoroom",
@@ -410,8 +410,8 @@
       "category": "Grafica e design",
       "free": false,
       "desc": "Foto prodotto per e-commerce: scontorno, sfondi generati, ombre e modifica in serie.",
-      "price": "Prezzo da verificare sul sito",
-      "verified": ""
+      "price": "Pro da 12,99 $/mese · Max da 34,99 $/mese",
+      "verified": "2026-10-12"
     },
     {
       "id": "topaz",
@@ -420,8 +420,8 @@
       "category": "Immagini",
       "free": false,
       "desc": "Ingrandimento, riduzione del rumore e nitidezza di foto e video con l’AI, anche in locale.",
-      "price": "Prezzo da verificare sul sito",
-      "verified": ""
+      "price": "Gigapixel 19 $/mese · Photo 39 $/mese · Video 59 $/mese",
+      "verified": "2026-10-12"
     },
     {
       "id": "magnific",
@@ -430,8 +430,8 @@
       "category": "Immagini",
       "free": false,
       "desc": "Upscaler “creativo” che aggiunge dettagli realistici alle immagini ingrandite.",
-      "price": "Prezzo da verificare sul sito",
-      "verified": ""
+      "price": "Premium 20 $/mese · Premium+ 45 $/mese · Pro 280 $/mese",
+      "verified": "2026-10-12"
     },
     {
       "id": "jasper",
@@ -440,8 +440,8 @@
       "category": "Marketing",
       "free": false,
       "desc": "Piattaforma di contenuti marketing con brand voice, campagne e agenti per i team.",
-      "price": "Prezzo da verificare sul sito",
-      "verified": ""
+      "price": "Pro 69 $/mese (o 59 $/mese annuale) · Business personalizzato",
+      "verified": "2026-10-12"
     },
     {
       "id": "replit",
@@ -491,7 +491,8 @@
       "free": false,
       "desc": "Copilot dentro Word, Excel, PowerPoint e Outlook: scrive, riassume e analizza i tuoi documenti.",
       "price": "Prezzo da verificare sul sito",
-      "verified": ""
+      "verified": "",
+      "fails": 1
     },
     {
       "id": "pika",
@@ -503,5 +504,17 @@
       "price": "Prezzo da verificare sul sito",
       "verified": ""
     }
+  ],
+  "changelog": [
+    "Lovable: aggiornato (https://www.nocode.mba/articles/lovable-pricing)",
+    "Notion AI: aggiornato (https://www.gosearch.ai/faqs/notion-ai-pricing-faq-2026-plans-costs-alternatives)",
+    "Otter.ai: aggiornato (https://scribbl.co/post/otter-ai-pricing)",
+    "Fireflies.ai: aggiornato (https://guide.fireflies.ai/articles/3734844560-learn-about-the-fireflies-pricing-plans)",
+    "Krea: aggiornato (https://www.therundown.ai/tools/krea-2)",
+    "Luma Dream Machine: aggiornato (https://lumalabs.ai/pricing)",
+    "Photoroom: aggiornato (https://wizcommerce.com/blog/photoroom-pricing)",
+    "Topaz Labs: aggiornato (https://www.topazlabs.com/pricing)",
+    "Magnific: aggiornato (https://www.myarchitectai.com/blog/magnific-ai-pricing)",
+    "Jasper: aggiornato (https://ustechautomations.com/resources/blog/jasper-pricing-2026)"
   ]
 }
