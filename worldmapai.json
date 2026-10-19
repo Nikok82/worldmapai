@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated": "2026-10-12",
+  "updated": "2026-10-19",
   "source": "Aggiornamento automatico settimanale (Tavily + Gemini)",
   "tools": [
     {
@@ -251,7 +251,8 @@
       "free": false,
       "desc": "Voci sintetiche realistiche anche in italiano, clonazione della voce, doppiaggio.",
       "price": "Starter 6 $/mese · Creator 22 $/mese · Pro 99 $/mese",
-      "verified": "2026-10-05"
+      "verified": "2026-10-05",
+      "fails": 1
     },
     {
       "id": "suno",
@@ -330,8 +331,8 @@
       "category": "Presentazioni e documenti",
       "free": false,
       "desc": "Crea presentazioni, documenti e mini-siti impaginati partendo da un testo o da un’idea.",
-      "price": "Piani Plus, Pro e Ultra: prezzo da verificare sul sito",
-      "verified": ""
+      "price": "Plus da 9 $/mese · Pro da 18 $/mese · Ultra da 90 $/mese",
+      "verified": "2026-10-19"
     },
     {
       "id": "lovable",
@@ -390,8 +391,8 @@
       "category": "Video",
       "free": false,
       "desc": "Generatore video da testo e immagini con movimenti realistici, molto usato per i contenuti social.",
-      "price": "Prezzo da verificare sul sito",
-      "verified": ""
+      "price": "Standard 10 $/mese · Pro 37 $/mese · Premier 92 $/mese · Ultra 180 $/mese",
+      "verified": "2026-10-19"
     },
     {
       "id": "luma",
@@ -450,8 +451,8 @@
       "category": "Siti e app",
       "free": false,
       "desc": "Ambiente di sviluppo online con agente AI che crea, esegue e pubblica applicazioni.",
-      "price": "Prezzo da verificare sul sito",
-      "verified": ""
+      "price": "Core 25 $/mese (o 20 $/mese annuale) · Pro 100 $/mese",
+      "verified": "2026-10-19"
     },
     {
       "id": "mistral",
@@ -460,8 +461,8 @@
       "category": "Chat e assistenti",
       "free": false,
       "desc": "Assistente dell’azienda francese Mistral, con dati in Europa; versione Pro con più utilizzo.",
-      "price": "Prezzo da verificare sul sito",
-      "verified": ""
+      "price": "Pro 14,99 $/mese · Team 24,99 $/mese per utente",
+      "verified": "2026-10-19"
     },
     {
       "id": "framer",
@@ -470,8 +471,8 @@
       "category": "Siti e app",
       "free": false,
       "desc": "Builder di siti con AI per generare pagine, tradurre e pubblicare siti veloci senza codice.",
-      "price": "Prezzo da verificare sul sito",
-      "verified": ""
+      "price": "Basic 10 $/mese · Pro 30 $/mese · Scale 100 $/mese (annuale)",
+      "verified": "2026-10-19"
     },
     {
       "id": "udio",
@@ -480,8 +481,8 @@
       "category": "Audio e voce",
       "free": false,
       "desc": "Generazione di musica e canzoni con l’AI, alternativa a Suno.",
-      "price": "Prezzo da verificare sul sito",
-      "verified": ""
+      "price": "Standard 10 $/mese · Pro 30 $/mese",
+      "verified": "2026-10-19"
     },
     {
       "id": "m365-copilot",
@@ -490,9 +491,9 @@
       "category": "Presentazioni e documenti",
       "free": false,
       "desc": "Copilot dentro Word, Excel, PowerPoint e Outlook: scrive, riassume e analizza i tuoi documenti.",
-      "price": "Prezzo da verificare sul sito",
-      "verified": "",
-      "fails": 1
+      "price": "Copilot Pro 20 $/mese · Business da 21 $/utente/mese · Enterprise add-on 30 $/utente/mese",
+      "verified": "2026-10-19",
+      "fails": 2
     },
     {
       "id": "pika",
@@ -501,20 +502,40 @@
       "category": "Video",
       "free": false,
       "desc": "Video brevi generati da testo o immagine, con effetti creativi pensati per i social.",
-      "price": "Prezzo da verificare sul sito",
-      "verified": ""
+      "price": "Gratis con account · Standard 10 $/mese · Pro 35 $/mese · Fancy 95 $/mese",
+      "verified": "2026-10-19"
+    },
+    {
+      "id": "notebooklm",
+      "name": "NotebookLM",
+      "url": "https://notebooklm.google.com",
+      "category": "Riunioni e produttività",
+      "free": false,
+      "desc": "Assistente di ricerca e appunti di Google basato su Gemini: sintetizza documenti, PDF e fonti caricate, creando risposte con citazioni puntuali e panoramiche audio riassuntive.",
+      "price": "Gratuito",
+      "verified": "2026-10-19"
+    },
+    {
+      "id": "spline-ai",
+      "name": "Spline AI",
+      "url": "https://spline.design",
+      "category": "Grafica e design",
+      "free": false,
+      "desc": "Tool di progettazione 3D per il web che permette di generare e modificare modelli, scene interattive e animazioni 3D a partire da prompt testuali, senza competenze complesse.",
+      "price": "Freemium",
+      "verified": "2026-10-19"
     }
   ],
   "changelog": [
-    "Lovable: aggiornato (https://www.nocode.mba/articles/lovable-pricing)",
-    "Notion AI: aggiornato (https://www.gosearch.ai/faqs/notion-ai-pricing-faq-2026-plans-costs-alternatives)",
-    "Otter.ai: aggiornato (https://scribbl.co/post/otter-ai-pricing)",
-    "Fireflies.ai: aggiornato (https://guide.fireflies.ai/articles/3734844560-learn-about-the-fireflies-pricing-plans)",
-    "Krea: aggiornato (https://www.therundown.ai/tools/krea-2)",
-    "Luma Dream Machine: aggiornato (https://lumalabs.ai/pricing)",
-    "Photoroom: aggiornato (https://wizcommerce.com/blog/photoroom-pricing)",
-    "Topaz Labs: aggiornato (https://www.topazlabs.com/pricing)",
-    "Magnific: aggiornato (https://www.myarchitectai.com/blog/magnific-ai-pricing)",
-    "Jasper: aggiornato (https://ustechautomations.com/resources/blog/jasper-pricing-2026)"
+    "Gamma: aggiornato (https://www.anygen.io/showcase/gamma-app-pricing/index.html)",
+    "Kling AI: aggiornato (https://kling.ai/app/membership/membership-plan)",
+    "Replit: aggiornato (https://www.nocode.mba/articles/replit-pricing)",
+    "Mistral Le Chat: aggiornato (https://www.cloudzero.com/blog/mistral-api-pricing)",
+    "Framer: aggiornato (https://www.nocode.mba/articles/framer-pricing)",
+    "Udio: aggiornato (https://lumimusic.ai/blog/udio-pricing)",
+    "Microsoft 365 Copilot: aggiornato (https://www.gosearch.ai/blog/microsoft-copilot-pricing)",
+    "Pika: aggiornato (https://www.eesel.ai/blog/pika-ai-pricing)",
+    "NotebookLM: aggiunto (https://www.saner.ai/blogs/best-free-ai-tools)",
+    "Spline AI: aggiunto (https://www.builder.io/blog/best-ai-tools-for-designers)"
   ]
 }
