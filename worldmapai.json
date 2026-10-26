@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated": "2026-10-19",
+  "updated": "2026-10-26",
   "source": "Aggiornamento automatico settimanale (Tavily + Gemini)",
   "tools": [
     {
@@ -230,8 +230,8 @@
       "category": "Video",
       "free": false,
       "desc": "Video aziendali e formativi con avatar AI in oltre 140 lingue.",
-      "price": "Starter 29 $/mese · Pro 89 $/mese",
-      "verified": "2026-10-05"
+      "price": "Starter 29 $/mese (18 $ annuale) · Creator 89 $/mese (64 $ annuale)",
+      "verified": "2026-10-26"
     },
     {
       "id": "descript",
@@ -250,9 +250,8 @@
       "category": "Audio e voce",
       "free": false,
       "desc": "Voci sintetiche realistiche anche in italiano, clonazione della voce, doppiaggio.",
-      "price": "Starter 6 $/mese · Creator 22 $/mese · Pro 99 $/mese",
-      "verified": "2026-10-05",
-      "fails": 1
+      "price": "Starter 5 $/mese · Creator 22 $/mese · Pro 99 $/mese",
+      "verified": "2026-10-26"
     },
     {
       "id": "suno",
@@ -291,8 +290,8 @@
       "category": "Programmazione",
       "free": false,
       "desc": "Editor di codice basato su VS Code con agenti AI che scrivono e modificano interi progetti.",
-      "price": "Pro 20 $/mese · Teams 40 $/mese a utente",
-      "verified": "2026-10-05"
+      "price": "Plus 8 $/mese · Premium 30 $/mese · Super 100 $/mese · Teams da 30 $/mese a utente",
+      "verified": "2026-10-26"
     },
     {
       "id": "github-copilot",
@@ -485,17 +484,6 @@
       "verified": "2026-10-19"
     },
     {
-      "id": "m365-copilot",
-      "name": "Microsoft 365 Copilot",
-      "url": "https://www.microsoft.com/it-it/microsoft-365/copilot",
-      "category": "Presentazioni e documenti",
-      "free": false,
-      "desc": "Copilot dentro Word, Excel, PowerPoint e Outlook: scrive, riassume e analizza i tuoi documenti.",
-      "price": "Copilot Pro 20 $/mese · Business da 21 $/utente/mese · Enterprise add-on 30 $/utente/mese",
-      "verified": "2026-10-19",
-      "fails": 2
-    },
-    {
       "id": "pika",
       "name": "Pika",
       "url": "https://pika.art",
@@ -512,8 +500,8 @@
       "category": "Riunioni e produttività",
       "free": false,
       "desc": "Assistente di ricerca e appunti di Google basato su Gemini: sintetizza documenti, PDF e fonti caricate, creando risposte con citazioni puntuali e panoramiche audio riassuntive.",
-      "price": "Gratuito",
-      "verified": "2026-10-19"
+      "price": "Gratis con account · Plus 4,99 $/mese · Pro 19,99 $/mese · Ultra da 99,99 $/mese",
+      "verified": "2026-10-26"
     },
     {
       "id": "spline-ai",
@@ -522,20 +510,49 @@
       "category": "Grafica e design",
       "free": false,
       "desc": "Tool di progettazione 3D per il web che permette di generare e modificare modelli, scene interattive e animazioni 3D a partire da prompt testuali, senza competenze complesse.",
+      "price": "Gratis con account · Hobby 15 $/mese · Pro 30 $/mese · Max 70 $/mese",
+      "verified": "2026-10-26"
+    },
+    {
+      "id": "deepseek",
+      "name": "DeepSeek",
+      "url": "https://chat.deepseek.com",
+      "category": "Chat e assistenti",
+      "free": false,
+      "desc": "Assistente AI conversazionale basato sui modelli avanzati DeepSeek, ideale per coding, ragionamento logico complesso e redazione di contenuti tecnici.",
+      "price": "Gratuito",
+      "verified": "2026-10-26"
+    },
+    {
+      "id": "uizard",
+      "name": "Uizard",
+      "url": "https://uizard.io",
+      "category": "Siti e app",
+      "free": false,
+      "desc": "Piattaforma di design basata su AI che trasforma schizzi a mano, screenshot e prompt in wireframe e prototipi UI interattivi per siti e applicazioni.",
       "price": "Freemium",
-      "verified": "2026-10-19"
+      "verified": "2026-10-26"
+    },
+    {
+      "id": "google-ai-studio",
+      "name": "Google AI Studio",
+      "url": "https://aistudio.google.com",
+      "category": "Laboratorio",
+      "free": false,
+      "desc": "Ambiente web per sviluppatori e creator utile a sperimentare con i modelli Gemini, testare prompt multimodali e prototipare funzionalità IA avanzate.",
+      "price": "Gratuito",
+      "verified": "2026-10-26"
     }
   ],
   "changelog": [
-    "Gamma: aggiornato (https://www.anygen.io/showcase/gamma-app-pricing/index.html)",
-    "Kling AI: aggiornato (https://kling.ai/app/membership/membership-plan)",
-    "Replit: aggiornato (https://www.nocode.mba/articles/replit-pricing)",
-    "Mistral Le Chat: aggiornato (https://www.cloudzero.com/blog/mistral-api-pricing)",
-    "Framer: aggiornato (https://www.nocode.mba/articles/framer-pricing)",
-    "Udio: aggiornato (https://lumimusic.ai/blog/udio-pricing)",
-    "Microsoft 365 Copilot: aggiornato (https://www.gosearch.ai/blog/microsoft-copilot-pricing)",
-    "Pika: aggiornato (https://www.eesel.ai/blog/pika-ai-pricing)",
-    "NotebookLM: aggiunto (https://www.saner.ai/blogs/best-free-ai-tools)",
-    "Spline AI: aggiunto (https://www.builder.io/blog/best-ai-tools-for-designers)"
+    "Synthesia: aggiornato (https://www.eesel.ai/blog/synthesia-pricing)",
+    "ElevenLabs: aggiornato (https://flexprice.io/blog/elevenlabs-pricing-breakdown)",
+    "Cursor: aggiornato (https://cursor.com/pricing)",
+    "NotebookLM: aggiornato (https://elephas.app/blog/notebooklm-free-vs-plus)",
+    "Spline AI: aggiornato (https://spline.design/pricing)",
+    "DeepSeek: aggiunto (https://fast.io/resources/best-free-ai-tools-2026)",
+    "Uizard: aggiunto (https://www.builder.io/blog/best-ai-tools-for-designers)",
+    "Google AI Studio: aggiunto (https://www.gumloop.com/blog/best-ai-apps)",
+    "Microsoft 365 Copilot: rimosso (sito non raggiungibile)"
   ]
 }
