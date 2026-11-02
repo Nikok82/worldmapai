@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated": "2026-10-26",
+  "updated": "2026-11-02",
   "source": "Aggiornamento automatico settimanale (Tavily + Gemini)",
   "tools": [
     {
@@ -470,8 +470,8 @@
       "category": "Siti e app",
       "free": false,
       "desc": "Builder di siti con AI per generare pagine, tradurre e pubblicare siti veloci senza codice.",
-      "price": "Basic 10 $/mese · Pro 30 $/mese · Scale 100 $/mese (annuale)",
-      "verified": "2026-10-19"
+      "price": "Basic 15 $/mese (o 10 $/mese annuale) · Pro 45 $/mese (o 30 $/mese annuale)",
+      "verified": "2026-11-02"
     },
     {
       "id": "udio",
@@ -530,8 +530,8 @@
       "category": "Siti e app",
       "free": false,
       "desc": "Piattaforma di design basata su AI che trasforma schizzi a mano, screenshot e prompt in wireframe e prototipi UI interattivi per siti e applicazioni.",
-      "price": "Freemium",
-      "verified": "2026-10-26"
+      "price": "Gratis con account · Pro 12 $/mese · Business 39 $/mese",
+      "verified": "2026-11-02"
     },
     {
       "id": "google-ai-studio",
@@ -542,17 +542,32 @@
       "desc": "Ambiente web per sviluppatori e creator utile a sperimentare con i modelli Gemini, testare prompt multimodali e prototipare funzionalità IA avanzate.",
       "price": "Gratuito",
       "verified": "2026-10-26"
+    },
+    {
+      "id": "figma",
+      "name": "Figma",
+      "url": "https://www.figma.com",
+      "category": "Grafica e design",
+      "free": false,
+      "desc": "Piattaforma collaborativa di interfaccia e prototipazione arricchita da funzioni AI per generare layout, gestire design system e velocizzare la creazione di siti e applicazioni web.",
+      "price": "Freemium",
+      "verified": "2026-11-02"
+    },
+    {
+      "id": "google-labs",
+      "name": "Google Labs",
+      "url": "https://labs.google",
+      "category": "Laboratorio",
+      "free": false,
+      "desc": "Spazio di sperimentazione di Google che raccoglie in anteprima prototipi e strumenti innovativi basati su intelligenza artificiale per creatività visiva, produttività e coding.",
+      "price": "Gratuito",
+      "verified": "2026-11-02"
     }
   ],
   "changelog": [
-    "Synthesia: aggiornato (https://www.eesel.ai/blog/synthesia-pricing)",
-    "ElevenLabs: aggiornato (https://flexprice.io/blog/elevenlabs-pricing-breakdown)",
-    "Cursor: aggiornato (https://cursor.com/pricing)",
-    "NotebookLM: aggiornato (https://elephas.app/blog/notebooklm-free-vs-plus)",
-    "Spline AI: aggiornato (https://spline.design/pricing)",
-    "DeepSeek: aggiunto (https://fast.io/resources/best-free-ai-tools-2026)",
-    "Uizard: aggiunto (https://www.builder.io/blog/best-ai-tools-for-designers)",
-    "Google AI Studio: aggiunto (https://www.gumloop.com/blog/best-ai-apps)",
-    "Microsoft 365 Copilot: rimosso (sito non raggiungibile)"
+    "Framer: aggiornato (https://www.awesomic.com/blog/framer-pricing)",
+    "Uizard: aggiornato (https://uizard.io/pricing)",
+    "Figma: aggiunto (figma.com)",
+    "Google Labs: aggiunto (gumloop.com)"
   ]
 }
