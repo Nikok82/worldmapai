@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated": "2026-11-02",
+  "updated": "2026-11-09",
   "source": "Aggiornamento automatico settimanale (Tavily + Gemini)",
   "tools": [
     {
@@ -300,8 +300,8 @@
       "category": "Programmazione",
       "free": false,
       "desc": "Assistente di programmazione dentro VS Code, JetBrains e GitHub: completamenti, chat e agenti.",
-      "price": "Pro 10 $/mese · Pro+ 39 $/mese · piano Free limitato",
-      "verified": "2026-10-05"
+      "price": "Pro 10 $/mese · Pro+ 39 $/mese · Max 100 $/mese · piano Free limitato",
+      "verified": "2026-11-09"
     },
     {
       "id": "bolt",
@@ -550,8 +550,8 @@
       "category": "Grafica e design",
       "free": false,
       "desc": "Piattaforma collaborativa di interfaccia e prototipazione arricchita da funzioni AI per generare layout, gestire design system e velocizzare la creazione di siti e applicazioni web.",
-      "price": "Freemium",
-      "verified": "2026-11-02"
+      "price": "Gratis con account · Professional 16 $/mese · Organization 55 $/mese · Enterprise 90 $/mese",
+      "verified": "2026-11-09"
     },
     {
       "id": "google-labs",
@@ -562,12 +562,43 @@
       "desc": "Spazio di sperimentazione di Google che raccoglie in anteprima prototipi e strumenti innovativi basati su intelligenza artificiale per creatività visiva, produttività e coding.",
       "price": "Gratuito",
       "verified": "2026-11-02"
+    },
+    {
+      "id": "relume",
+      "name": "Relume",
+      "url": "https://www.relume.io",
+      "category": "Siti e app",
+      "free": false,
+      "desc": "Genera sitemap interattive e wireframe per siti web con l'AI. Permette di definire l'architettura delle informazioni ed esportare layout pronti su Figma e Webflow.",
+      "price": "Freemium (piano gratuito con crediti)",
+      "verified": "2026-11-09"
+    },
+    {
+      "id": "adcreative-ai",
+      "name": "AdCreative.ai",
+      "url": "https://www.adcreative.ai",
+      "category": "Marketing",
+      "free": false,
+      "desc": "Crea in pochi secondi banner pubblicitari, formati per i social media e testi ottimizzati per le conversioni su Google Ads e Meta grazie all'intelligenza artificiale.",
+      "price": "A pagamento (a partire da ~$29/mese con prova gratuita)",
+      "verified": "2026-11-09"
+    },
+    {
+      "id": "khroma",
+      "name": "Khroma",
+      "url": "https://www.khroma.co",
+      "category": "Grafica e design",
+      "free": true,
+      "desc": "Strumento AI per designer che apprende le tue preferenze cromatiche e genera infinite palette, gradienti e combinazioni tipografiche pronte all'uso per progetti web.",
+      "price": "Gratuito",
+      "verified": "2026-11-09"
     }
   ],
   "changelog": [
-    "Framer: aggiornato (https://www.awesomic.com/blog/framer-pricing)",
-    "Uizard: aggiornato (https://uizard.io/pricing)",
-    "Figma: aggiunto (figma.com)",
-    "Google Labs: aggiunto (gumloop.com)"
+    "GitHub Copilot: aggiornato (https://docs.github.com/en/copilot/get-started/plans)",
+    "Figma: aggiornato (https://www.activepieces.com/blog/figma-pricing-2026-plans-seats-and-billing-costs)",
+    "Relume: aggiunto (https://storyflow.so/blog/best-ai-tools-for-designers-2026)",
+    "AdCreative.ai: aggiunto (https://miglanidigital.com/blog/15-best-ai-tools-for-digital-marketing-agencies-2026.html)",
+    "Khroma: aggiunto (https://storyflow.so/blog/best-ai-tools-for-designers-2026)"
   ]
 }
