@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated": "2026-11-09",
+  "updated": "2026-11-16",
   "source": "Aggiornamento automatico settimanale (Tavily + Gemini)",
   "tools": [
     {
@@ -230,8 +230,8 @@
       "category": "Video",
       "free": false,
       "desc": "Video aziendali e formativi con avatar AI in oltre 140 lingue.",
-      "price": "Starter 29 $/mese (18 $ annuale) · Creator 89 $/mese (64 $ annuale)",
-      "verified": "2026-10-26"
+      "price": "Starter 29 $/mese (18 $ annuale) · Pro 89 $/mese (64 $ annuale)",
+      "verified": "2026-11-16"
     },
     {
       "id": "descript",
@@ -250,8 +250,8 @@
       "category": "Audio e voce",
       "free": false,
       "desc": "Voci sintetiche realistiche anche in italiano, clonazione della voce, doppiaggio.",
-      "price": "Starter 5 $/mese · Creator 22 $/mese · Pro 99 $/mese",
-      "verified": "2026-10-26"
+      "price": "Starter 6 $/mese · Creator 22 $/mese · Pro 99 $/mese · Scale 299 $/mese",
+      "verified": "2026-11-16"
     },
     {
       "id": "suno",
@@ -450,8 +450,8 @@
       "category": "Siti e app",
       "free": false,
       "desc": "Ambiente di sviluppo online con agente AI che crea, esegue e pubblica applicazioni.",
-      "price": "Core 25 $/mese (o 20 $/mese annuale) · Pro 100 $/mese",
-      "verified": "2026-10-19"
+      "price": "Core 20 $/mese (o 18 $/mese annuale) · Pro 100 $/mese (o 90 $/mese annuale)",
+      "verified": "2026-11-16"
     },
     {
       "id": "mistral",
@@ -570,8 +570,8 @@
       "category": "Siti e app",
       "free": false,
       "desc": "Genera sitemap interattive e wireframe per siti web con l'AI. Permette di definire l'architettura delle informazioni ed esportare layout pronti su Figma e Webflow.",
-      "price": "Freemium (piano gratuito con crediti)",
-      "verified": "2026-11-09"
+      "price": "Gratis con account · Starter 26 $/mese · Pro 40 $/mese",
+      "verified": "2026-11-16"
     },
     {
       "id": "adcreative-ai",
@@ -580,8 +580,8 @@
       "category": "Marketing",
       "free": false,
       "desc": "Crea in pochi secondi banner pubblicitari, formati per i social media e testi ottimizzati per le conversioni su Google Ads e Meta grazie all'intelligenza artificiale.",
-      "price": "A pagamento (a partire da ~$29/mese con prova gratuita)",
-      "verified": "2026-11-09"
+      "price": "Starter 39 $/mese · Professional 249 $/mese · Ultimate 999 $/mese",
+      "verified": "2026-11-16"
     },
     {
       "id": "khroma",
@@ -592,13 +592,24 @@
       "desc": "Strumento AI per designer che apprende le tue preferenze cromatiche e genera infinite palette, gradienti e combinazioni tipografiche pronte all'uso per progetti web.",
       "price": "Gratuito",
       "verified": "2026-11-09"
+    },
+    {
+      "id": "ttsmaker",
+      "name": "TTSMaker",
+      "url": "https://ttsmaker.com",
+      "category": "Audio e voce",
+      "free": true,
+      "desc": "Strumento online gratuito di text-to-speech per generare voiceover realistici in varie lingue, utilizzabile immediatamente dal browser senza creare un account.",
+      "price": "Gratuito / Piani a pagamento",
+      "verified": "2026-11-16"
     }
   ],
   "changelog": [
-    "GitHub Copilot: aggiornato (https://docs.github.com/en/copilot/get-started/plans)",
-    "Figma: aggiornato (https://www.activepieces.com/blog/figma-pricing-2026-plans-seats-and-billing-costs)",
-    "Relume: aggiunto (https://storyflow.so/blog/best-ai-tools-for-designers-2026)",
-    "AdCreative.ai: aggiunto (https://miglanidigital.com/blog/15-best-ai-tools-for-digital-marketing-agencies-2026.html)",
-    "Khroma: aggiunto (https://storyflow.so/blog/best-ai-tools-for-designers-2026)"
+    "Synthesia: aggiornato (https://help.synthesia.io/en/articles/17217419-what-s-changing-in-synthesia-plans-on-october-1-2026)",
+    "ElevenLabs: aggiornato (https://digitavision.com/blog/elevenlabs-pricing)",
+    "Replit: aggiornato (https://replit.com/pricing)",
+    "Relume: aggiornato (https://checkthat.ai/brands/relume/pricing)",
+    "AdCreative.ai: aggiornato (https://www.adroast.ai/blog/adcreative-ai-review)",
+    "TTSMaker: aggiunto (https://www.youtube.com/watch?v=JYP9hqwnIKg)"
   ]
 }
