@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated": "2026-11-16",
+  "updated": "2026-11-23",
   "source": "Aggiornamento automatico settimanale (Tavily + Gemini)",
   "tools": [
     {
@@ -459,9 +459,9 @@
       "url": "https://mistral.ai/pricing",
       "category": "Chat e assistenti",
       "free": false,
-      "desc": "Assistente dell’azienda francese Mistral, con dati in Europa; versione Pro con più utilizzo.",
+      "desc": "Assistente e agente di coding AI di Mistral (ex Le Chat), con dati in Europa. Versione Pro per compiti avanzati e programmazione.",
       "price": "Pro 14,99 $/mese · Team 24,99 $/mese per utente",
-      "verified": "2026-10-19"
+      "verified": "2026-11-23"
     },
     {
       "id": "framer",
@@ -490,8 +490,8 @@
       "category": "Video",
       "free": false,
       "desc": "Video brevi generati da testo o immagine, con effetti creativi pensati per i social.",
-      "price": "Gratis con account · Standard 10 $/mese · Pro 35 $/mese · Fancy 95 $/mese",
-      "verified": "2026-10-19"
+      "price": "Gratis con account · Starter 10 $/mese · Creator 35 $/mese · Fancy da 95 $/mese",
+      "verified": "2026-11-23"
     },
     {
       "id": "notebooklm",
@@ -605,11 +605,7 @@
     }
   ],
   "changelog": [
-    "Synthesia: aggiornato (https://help.synthesia.io/en/articles/17217419-what-s-changing-in-synthesia-plans-on-october-1-2026)",
-    "ElevenLabs: aggiornato (https://digitavision.com/blog/elevenlabs-pricing)",
-    "Replit: aggiornato (https://replit.com/pricing)",
-    "Relume: aggiornato (https://checkthat.ai/brands/relume/pricing)",
-    "AdCreative.ai: aggiornato (https://www.adroast.ai/blog/adcreative-ai-review)",
-    "TTSMaker: aggiunto (https://www.youtube.com/watch?v=JYP9hqwnIKg)"
+    "Mistral Le Chat: aggiornato (https://mistral.ai/products/vibe)",
+    "Pika: aggiornato (https://academy.techpresso.co/reviews/is-pika-worth-it)"
   ]
 }
